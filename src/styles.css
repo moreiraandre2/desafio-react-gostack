@@ -6,6 +6,7 @@
 
 body {
   font-size: 14px;
+  background: #999;
 }
 
 div {
@@ -14,9 +15,25 @@ div {
 }
 
 div li {
-  display: flex;
   align-items: center;
+  background: #fff;
+  list-style-type: none;
+  width: 480px;
+  padding: 20px;
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: sans-serif;
 }
+
+div li p span{
+  color: #777;
+}
+
+div li p{
+  margin-bottom: 12px;
+}
+
 
 div li + li {
   margin-top: 15px;
